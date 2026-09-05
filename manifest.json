@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "autitabi.window-switcher",
+  "name": "Autitabi",
+  "version": "0.1.0",
+  "author": "FlavioDias97",
+  "description": "Visual Alt+Tab window switcher for Hyprland (Omarchy Shell plugin)",
+  "license": "GPL-3.0-only",
+  "kinds": [
+    "overlay"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "overlay": "src/WindowSwitcher.qml"
+  }
+}
