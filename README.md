@@ -7,12 +7,28 @@ It shows every open window across all workspaces in a single overlay, ordered by
 recency, and lets you pick one with the keyboard or the mouse. Minimized windows
 come back to the workspace they were minimized from.
 
+![Autitabi overlay listing windows from four workspaces plus a minimized one, each row tagged with its workspace](docs/autitabi-main.png)
+
 **Support scope (0.1.0):** the switcher runs as an
 [Omarchy](https://omarchy.org/) Shell plugin. That is the only supported host
 today. The list logic and the Hyprland Lua are already host-agnostic and the
 QML's theme surface is isolated, so a Quickshell-standalone build is a small
 step away — but it is not implemented or tested yet. See
 [Standalone](#standalone-hyprland--quickshell-not-yet-supported).
+
+---
+
+## Screenshots
+
+Minimized windows stay in the list with a **Minimized** tag; selecting one sends
+it back to the workspace it came from.
+
+![A minimized window selected in the Autitabi overlay](docs/autitabi-minimized.png)
+
+Step through the list with Tab, the arrow keys or the mouse — the selection and
+its workspace tag follow along.
+
+![Navigating to another window in the Autitabi overlay](docs/autitabi-navigation.png)
 
 ---
 
